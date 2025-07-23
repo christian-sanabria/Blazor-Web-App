@@ -1,0 +1,48 @@
+@page "/documentos"
+
+@using MiBlazorApp.Models
+@using MiBlazorApp.Services
+
+@inject DocumentoService documentoService
+
+<h3>Lista de Documentos</h3>
+
+@if (documentos == null)
+{
+    <p>Cargando documentos...</p>
+}
+else if (documentos.Count == 0)
+{
+    <p>No hay documentos disponibles.</p>
+}
+else
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Código</th>
+                <th>Descripción</th>
+                <th>Estado</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var doc in documentos)
+            {
+                <tr>
+                    <td>@doc.Codigo</td>
+                    <td>@doc.Descripcion</td>
+                    <td>@(doc.VActiva ? "Activo" : "Inactivo")</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private List<Documento>? documentos;
+
+    protected override async Task OnInitializedAsync()
+    {
+        documentos = await documentoService.ObtenerDocumentosAsync();
+    }
+}

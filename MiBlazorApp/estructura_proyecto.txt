@@ -1,0 +1,107 @@
+Listado de rutas de carpetas para el volumen Backup
+El número de serie del volumen es 9875-6BE6
+D:.
+¦   appsettings.Development.json
+¦   appsettings.json
+¦   estructura_proyecto.txt
+¦   MiBlazorApp.csproj
+¦   Program.cs
+¦   scanner.bat
+¦   
++---bin
+¦   +---Debug
+¦       +---net8.0
+¦               appsettings.Development.json
+¦               appsettings.json
+¦               MiBlazorApp.deps.json
+¦               MiBlazorApp.dll
+¦               MiBlazorApp.exe
+¦               MiBlazorApp.pdb
+¦               MiBlazorApp.runtimeconfig.json
+¦               MiBlazorApp.staticwebassets.runtime.json
+¦               
++---Components
+¦   ¦   App.razor
+¦   ¦   Routes.razor
+¦   ¦   _Imports.razor
+¦   ¦   
+¦   +---Layout
+¦   ¦       MainLayout.razor
+¦   ¦       MainLayout.razor.css
+¦   ¦       NavMenu.razor
+¦   ¦       NavMenu.razor.css
+¦   ¦       
+¦   +---Pages
+¦           Counter.razor
+¦           Documentos.razor
+¦           Error.razor
+¦           Home.razor
+¦           Weather.razor
+¦           
++---models
+¦       Documento.cs
+¦       
++---obj
+¦   ¦   MiBlazorApp.csproj.nuget.dgspec.json
+¦   ¦   MiBlazorApp.csproj.nuget.g.props
+¦   ¦   MiBlazorApp.csproj.nuget.g.targets
+¦   ¦   project.assets.json
+¦   ¦   project.nuget.cache
+¦   ¦   
+¦   +---Debug
+¦       +---net8.0
+¦           ¦   .NETCoreApp,Version=v8.0.AssemblyAttributes.cs
+¦           ¦   apphost.exe
+¦           ¦   MiBlazorApp.AssemblyInfo.cs
+¦           ¦   MiBlazorApp.AssemblyInfoInputs.cache
+¦           ¦   MiBlazorApp.assets.cache
+¦           ¦   MiBlazorApp.csproj.CoreCompileInputs.cache
+¦           ¦   MiBlazorApp.csproj.FileListAbsolute.txt
+¦           ¦   MiBlazorApp.dll
+¦           ¦   MiBlazorApp.GeneratedMSBuildEditorConfig.editorconfig
+¦           ¦   MiBlazorApp.genruntimeconfig.cache
+¦           ¦   MiBlazorApp.GlobalUsings.g.cs
+¦           ¦   MiBlazorApp.MvcApplicationPartsAssemblyInfo.cache
+¦           ¦   MiBlazorApp.pdb
+¦           ¦   staticwebassets.build.json
+¦           ¦   staticwebassets.development.json
+¦           ¦   staticwebassets.pack.json
+¦           ¦   
+¦           +---ref
+¦           ¦       MiBlazorApp.dll
+¦           ¦       
+¦           +---refint
+¦           ¦       MiBlazorApp.dll
+¦           ¦       
+¦           +---scopedcss
+¦           ¦   +---bundle
+¦           ¦   ¦       MiBlazorApp.styles.css
+¦           ¦   ¦       
+¦           ¦   +---Components
+¦           ¦   ¦   +---Layout
+¦           ¦   ¦           MainLayout.razor.rz.scp.css
+¦           ¦   ¦           NavMenu.razor.rz.scp.css
+¦           ¦   ¦           
+¦           ¦   +---projectbundle
+¦           ¦           MiBlazorApp.bundle.scp.css
+¦           ¦           
+¦           +---staticwebassets
+¦                   msbuild.build.MiBlazorApp.props
+¦                   msbuild.buildMultiTargeting.MiBlazorApp.props
+¦                   msbuild.buildTransitive.MiBlazorApp.props
+¦                   msbuild.MiBlazorApp.Microsoft.AspNetCore.StaticWebAssets.props
+¦                   
++---Properties
+¦       launchSettings.json
+¦       
++---Services
+¦       DocumentoService.cs
+¦       
++---wwwroot
+    ¦   app.css
+    ¦   favicon.png
+    ¦   
+    +---bootstrap
+            bootstrap.min.css
+            bootstrap.min.css.map
+            

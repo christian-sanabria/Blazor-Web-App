@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Users\\User\\christian\\Personal\\Mundo Laboral\\Pruebas Tecnicas\\MiBlazorApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\MiBlazorApp.bundle.scp.css",
+      "PackagePath": "staticwebassets\\MiBlazorApp.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Users\\User\\christian\\Personal\\Mundo Laboral\\Pruebas Tecnicas\\MiBlazorApp\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "D:\\Users\\User\\christian\\Personal\\Mundo Laboral\\Pruebas Tecnicas\\MiBlazorApp\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Users\\User\\christian\\Personal\\Mundo Laboral\\Pruebas Tecnicas\\MiBlazorApp\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Users\\User\\christian\\Personal\\Mundo Laboral\\Pruebas Tecnicas\\MiBlazorApp\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.MiBlazorApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.MiBlazorApp.props",
+      "PackagePath": "build\\MiBlazorApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.MiBlazorApp.props",
+      "PackagePath": "buildMultiTargeting\\MiBlazorApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.MiBlazorApp.props",
+      "PackagePath": "buildTransitive\\MiBlazorApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

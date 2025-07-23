@@ -1,0 +1,132 @@
+﻿@page "/"
+
+<PageTitle>Inicio</PageTitle>
+
+<style>
+    .main-container {
+        max-width: 1200px;
+        margin: 4rem auto;
+        padding: 2rem;
+        background-color: #fdfdfd;
+        border-radius: 12px;
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+        font-family: 'Segoe UI', sans-serif;
+    }
+
+    .header {
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+
+    .header h1 {
+        font-size: 2.5rem;
+        font-weight: 600;
+        color: #222;
+    }
+
+    .columns {
+        display: flex;
+        gap: 2rem;
+        flex-wrap: wrap;
+    }
+
+    .column {
+        flex: 1;
+        min-width: 280px;
+        background-color: #fafafa;
+        border-radius: 10px;
+        padding: 1.5rem;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    }
+
+    .column h2 {
+        font-size: 1.3rem;
+        color: #007acc;
+        margin-bottom: 1rem;
+    }
+
+    .column p, .column li {
+        font-size: 0.95rem;
+        color: #444;
+        line-height: 1.6;
+    }
+
+    .footer {
+        margin-top: 3rem;
+        text-align: center;
+        font-size: 0.9rem;
+        color: #888;
+    }
+
+    .ver-docs-button {
+        display: inline-block;
+        margin-top: 1.5rem;
+        padding: 0.75rem 1.5rem;
+        background-color: #007acc;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        font-size: 1rem;
+        cursor: pointer;
+        text-decoration: none;
+        transition: background-color 0.3s ease;
+    }
+
+    .ver-docs-button:hover {
+        background-color: #005fa3;
+    }
+</style>
+
+<div class="main-container">
+    <div class="header">
+        <h1>Prueba Técnica - Blazor Web App</h1>
+    </div>
+
+    <div class="columns">
+        <!-- Columna 1 -->
+        <div class="column">
+            <h2>Objetivo</h2>
+            <p>
+                Desarrollar una aplicación en Blazor que consuma una API REST autenticada y despliegue los datos en una grilla funcional.
+            </p>
+            <p>
+                <strong>API:</strong><br />
+                <a href="https://mainserver.ziursoftware.com/Ziur.API/basedatos_01/ZiurServiceRest.svc/api/DocumentosFillsCombos"
+                   target="_blank">
+                    Ver API de Documentos
+                </a>
+            </p>
+        </div>
+
+        <!-- Columna 2 -->
+        <div class="column">
+            <h2>Tecnologías</h2>
+            <ul>
+                <li>✔️ Blazor Server (.NET 8)</li>
+                <li>✔️ C# / Razor / Componentes</li>
+                <li>✔️ Consumo de API con Bearer Token</li>
+                <li>✔️ Renderizado interactivo</li>
+                <li>✔️ Bootstrap básico</li>
+            </ul>
+        </div>
+
+        <!-- Columna 3 -->
+        <div class="column">
+            <h2>Estado del Proyecto</h2>
+            <ul>
+                <li>✅ Conexión a API implementada</li>
+                <li>✅ Visualización de documentos</li>
+                <li>🛠️ Estilos básicos y layout funcional</li>
+                <li>🧪 Listo para pruebas técnicas</li>
+            </ul>
+
+            <NavLink class="ver-docs-button" href="/documentos">
+                Ver Implementación
+            </NavLink>
+        </div>
+    </div>
+
+    <div class="footer">
+        Desarrollado por Christian Sanabria · Julio 2025
+    </div>
+</div>
